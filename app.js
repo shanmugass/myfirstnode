@@ -3,7 +3,7 @@ console.log("this is first node app");
 var mongoose = require('mongoose');
 var db='mongodb://appFulfillment:!TURner2016$_DOWNSTREAM@ds039775-a0.mongolab.com:39775,ds039775-a1.mongolab.com:39775/fulfillment-dev?replicaSet=rs-ds039775';
 
-var Job = require('./models/Job.model');
+var Job = require('./models/Job.model.js');
 
 mongoose.connect(db);
 
