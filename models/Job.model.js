@@ -10,4 +10,5 @@ var JobSchema = new Schema({
   LastProcessedTitleBSONId: Object
 });
 
+
 module.exports = mongoose.model('Job', JobSchema);
